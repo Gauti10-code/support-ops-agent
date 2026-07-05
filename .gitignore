@@ -1,0 +1,24 @@
+# Environment variables (API keys)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+agentic/
+
+# Vector database (generated, large binary)
+chroma_db/
+
+# SQLite checkpoints (generated at runtime)
+checkpoints.db
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
